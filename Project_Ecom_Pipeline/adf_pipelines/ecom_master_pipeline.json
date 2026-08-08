@@ -1,0 +1,14 @@
+{
+  "name": "pl_ecommerce_medallion_pipeline",
+  "properties": {
+    "activities": [
+      {
+        "name": "Execute_Medallion_Script",
+        "type": "CustomPythonActivity",
+        "typeProperties": {
+          "scriptPath": "notebooks/ecommerce_pipeline.py"
+        }
+      }
+    ]
+  }
+}
